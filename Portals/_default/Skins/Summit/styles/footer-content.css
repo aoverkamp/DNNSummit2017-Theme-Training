@@ -1,0 +1,85 @@
+.site-footer .row {
+    text-align: center;
+}
+
+.footer-logo {
+    width: 50%;
+}
+
+/*-- Social Media List --*/
+.social-media-list {
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+}
+
+.social-media-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 0.25em;
+}
+
+.social-media-list a {
+    color: #f4a939;
+    padding: 0.125em;
+}
+ 
+/*-- Bio --*/
+.simple-bio {
+    padding: 4em 0;
+}
+.simple-bio img {
+    border-radius: 50%;
+    max-width: 100px;
+    border: 3px solid #495458;
+    margin: 0 0 2em 0; 
+}
+.simple-bio p {
+    color: #fff;
+}
+
+/*----- Media Queries -----*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .footer-logo {
+        width: 80%;
+    }
+
+    /*-- Bio --*/
+    .simple-bio {
+        padding: 0;
+    }
+
+    .social-media-list li {
+        display: block;
+        padding: 0 0 0.5em 0;
+    }
+    
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .site-footer .row {
+        text-align: left;
+    }
+
+    .footer-logo {
+        width: auto;
+    }
+    
+    /*-- Bio --*/
+    .simple-bio {
+        padding: 4em 0;
+    }
+    .simple-bio img {
+        float: left;
+        margin: 0 3em 3em 0; 
+    }
+    .simple-bio p {
+        color: #fff;
+    }
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

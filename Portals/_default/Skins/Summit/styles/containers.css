@@ -1,0 +1,18 @@
+.module-container {
+  margin-bottom: 2.5em;
+}
+.module-container--heading {}
+.module-container--body {}
+
+.module-container__h1-title {}
+.module-container__h2-title {}
+.module-container__no-title {}
+
+.module-container__card {
+    background-color: #fff;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 3px #eee;
+  border-radius: 3px;
+  padding-bottom: 30px; 
+}

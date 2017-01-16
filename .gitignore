@@ -1,0 +1,72 @@
+admin/
+App_Browsers/
+App_Data/
+App_GlobalResources/
+bin/
+Components/
+Config/
+controls/
+DesktopModules/
+Documentation/
+Icons/
+images/
+Install/
+js/
+Licenses/
+obj/
+403-3.gif
+51Degrees.mobi.config
+compilerconfig.json
+Default.aspx
+DNN.ico
+DotNetNuke.config
+DotNetNuke.log4net.config
+ErrorPage.aspx
+favicon.ico
+Global.asax
+jquery.min.map
+KeepAlive.aspx
+packages.config
+Portals/_default/Containers/_default/
+Portals/_default/Containers/Facebook/
+Portals/_default/Containers/Gravity/
+Portals/_default/Containers/Xcillion/
+Portals/_default/Logs/
+Portals/_default/Skins/_default/No Skin.ascx
+Portals/_default/admin.css
+Portals/_default/admin.template
+Portals/_default/Blank Website.template
+Portals/_default/Blank Website.template.en-US.resx
+Portals/_default/Cache/PlaceHolder.txt
+Portals/_default/Cache/ReadMe.txt
+Portals/_default/Default Website.template
+Portals/_default/Default Website.template.en-US.resx
+Portals/_default/Default Website.template.resources
+Portals/_default/EventQueue/EventQueue.config
+Portals/_default/EventQueue/readme.txt
+Portals/_default/ie.css
+Portals/_default/Skins/_default/popUpSkin.ascx
+Portals/_default/Skins/_default/popUpSkin.doctype.xml
+Portals/_default/Skins/_default/WebControlSkin/
+Portals/_default/Skins/Facebook/
+Portals/_default/Skins/Gravity/
+Portals/_default/Skins/Xcillion/
+Portals/_default/Smileys/
+Portals/0/Dnn.CKEditorSettings.xml
+Portals/0/Dnn.CKToolbarButtons.xml
+Portals/0/Dnn.CKToolbarSets.xml
+Portals/_default/subhost.aspx
+Portals/_default/Summit 9.template
+Portals/_default/Summit 9.template.resources
+Portals/_default/Templates/Default.page.template
+Portals/_default/Templates/UserProfile.page.template
+Providers/
+Resources/
+Portals/0/Templates/Default.page.template
+Portals/Web.config
+Robots.txt
+SiteAnalytics.config
+SiteUrls.config
+web.config
+Portals/0/
+Portals/_default/portal.css

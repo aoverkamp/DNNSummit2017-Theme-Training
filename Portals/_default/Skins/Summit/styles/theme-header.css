@@ -1,0 +1,201 @@
+.site-header {
+    background-color: #1e1e1e;
+    border-bottom: 6px solid #181818;
+    font-size: 1em;
+    padding: 0;
+    color: #f9f9f9;
+    max-height: 150px;
+    height: 100px;
+    background-image: url(http://www.old.aoverkamp.com/Summit2017/Summit-header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-header .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*-- Logo --*/
+.site-header .logo {
+    float: none;
+    height: auto;
+    padding: 0.75em 0 0 1em;
+}
+
+.site-header .logo a {
+    display: block;
+    text-align: left;
+    padding: 0; 
+}
+
+.site-header .logo img {
+    width: 100%;
+    max-width: 130px;
+}
+
+/*-- Search --*/
+.site-header .search {
+  padding: 0.125em 0 0 1em;
+}
+
+.search .collapse.in,
+.search .collapsing {
+    display:inline-block;
+}
+
+.search .collapse {
+    display: inline-block;
+}
+
+.site-header .search-toggle {
+    font-size: 1.429em;
+    color: #f4a939;
+}
+
+/*-- Navigation/Navbar --*/
+.navbar-toggle {
+    
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #f4a939;
+    height: 4px;
+    width: 2em;
+    margin-bottom: 5px;
+}
+
+.site-header .navbar {
+    border-radius: 0;
+    margin: 0;
+    border: none;
+    /*min-height: 150px;*/
+}
+
+.site-header .navbar-collapse {
+    top: -1em;
+    position: relative;
+    z-index: 2;
+    background-color: #181818;
+    border: none;
+    box-shadow: none;
+}
+
+.site-header nav { 
+    text-align: center;
+    margin: 0;
+}
+
+.site-header nav li { 
+    padding: 0.5em 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.site-header nav a {
+    color: #f9f9f9;
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.site-header .nav > li > a:focus, 
+.site-header .nav > li > a:hover {
+    background-color: transparent;
+    color: #f4a939;
+}
+
+.site-header nav .active > a {
+    color: #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+.site-header nav .active > a:hover {
+    color: #f4a939;
+    border-bottom: 2px solid #f4a939;
+}
+
+.dropdown-menu > li > a:focus, 
+.dropdown-menu > li > a:hover {
+    color: #f4a939;
+    background-color: transparent;
+}
+
+
+/*----- Media Queries -----*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .site-header {
+        height: auto;
+        /*margin-bottom: 2em;*/
+    }
+
+    .site-header .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .site-header .logo img {
+        max-width: 215px;
+    }
+
+    .site-header .search {
+        float: right;
+    }
+
+    .site-header .search-toggle {
+        position: absolute;
+        top: -2px;
+    }
+
+    .search .collapse {
+        display: none;
+    }
+
+    .site-header .navbar-collapse {
+        top: 4.286em;
+        background-color: transparent;
+    }
+
+    .site-header nav { 
+        text-align: right;
+    }
+
+    .site-header .navbar-nav > li {
+        float: none;
+        display: inline-block;
+        padding: 0 1em;
+        border: none;
+    }
+
+    .site-header .dropdown-menu {
+        background-color: #181818;
+    }
+
+    .site-header .dropdown-menu li {
+        border: none;
+        padding: 0.5em;
+    }
+
+   /* .site-header li.dropdown:hover .dropdown-menu {
+        display: block;
+        right: auto;
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+    }*/
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

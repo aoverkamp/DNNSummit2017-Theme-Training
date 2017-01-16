@@ -1,0 +1,51 @@
+.site-footer {
+    background-color: #122026;
+    padding: 2.5em 0 0;
+}
+
+.site-infobar {
+    background-color: #181818;
+    color: #555;
+    font-size: 0.857em;
+    padding: 2em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+.site-infobar ul {
+    margin: 0;
+    
+}
+.site-infobar li {
+    list-style: none;
+    padding: 1em;
+}
+.site-infobar a {
+    color: #555;
+}
+.site-infobar li:last-of-type {
+    border: none;
+}
+
+/*----- Media Queries -----*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .copyright {
+        text-align: left;
+    }
+    .site-infobar ul {
+        text-align: right;
+    }
+    .site-infobar li {
+        display: inline;
+        border-right: 1px solid #333;
+        padding: 0 1em;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

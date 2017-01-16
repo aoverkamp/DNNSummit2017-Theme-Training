@@ -1,0 +1,16 @@
+/*--- DNN Overrides ---*/
+.dnn_mact li.actionMenuMove ul li { height: auto; width: auto; } 
+/*-- Overrides fixed height and width on li for moving module in action menu --*/
+
+#ControlBar_ControlPanel:before,
+#ControlBar_ControlPanel *:before,
+#ControlBar_ControlPanel:after,
+#ControlBar_ControlPanel *:after,
+#ControlBar_ControlPanel,
+#ControlBar_ControlPanel * {
+  box-sizing: content-box;
+}
+/*-- Overrides conflict with ControlBar styles (positioning and padding) --*/
+
+.dnnCheckbox .mark { background-color: transparent; } 
+/*-- Overrides Bootstrap background color on mark and .mark (used on dnnCheckbox) --*/
