@@ -1,5 +1,6 @@
 @import './styles/containers.css';
 @import './styles/footer-content.css';
+@import './styles/main-navigation.css';
 @import './styles/overrides.css';
 @import './styles/theme-header.css';
 @import './styles/theme-footer.css';
@@ -83,22 +84,46 @@ body {
     .card-content {
         padding: 0 2em 2em;
     }
-        .action-wrap {
-            .clearfix;
-            padding-top: 1em;
-        }
-            .rating {
-                float: left;
-                width: 50%;
-            }
-                .rating .fa {
-                    color: #585858;
-                    font-size: 1.5em;
-                }   
 
-            .more-btn {
-                float: right;
-                width: 50%;
-                text-align: right;
-                font-weight: 600;
-            }
+    .action-wrap {
+        .clearfix;
+        padding: 1rem 2rem 2rem;
+    }
+        .rating {
+            float: left;
+            width: 50%;
+        }
+            .rating .fa {
+                color: #585858;
+                font-size: 1.5em;
+            }   
+
+        .more-btn {
+            float: right;
+            width: 50%;
+            text-align: right;
+            font-weight: 600;
+        }
+
+/*----- Media Queries -----*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .site-content-area {
+        position: relative;
+        top: -23px; /* to pull main section to bottom of header, while letting logo overhang */   
+        margin-bottom: -23px; /* counters top positioning to ensure bottom of main meets top of footer */ 
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

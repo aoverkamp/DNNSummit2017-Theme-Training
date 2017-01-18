@@ -1,0 +1,117 @@
+/*-- Navigation/Navbar --*/
+.navbar-toggle {}
+
+.navbar-toggle .icon-bar {
+    background-color: #f4a939;
+    height: 4px;
+    width: 2em;
+    margin-bottom: 5px;
+}
+
+.site-header .navbar {
+    border-radius: 0;
+    margin: 0;
+    border: none;
+}
+
+.site-header .navbar-collapse {
+    top: -1em;
+    position: relative;
+    z-index: 5;
+    background-color: #181818;
+    border: none;
+    box-shadow: none;
+}
+
+.site-header nav { 
+    text-align: center;
+    margin: 0;
+}
+
+.site-header nav li { 
+    padding: 0.5em 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.site-header nav a {
+    color: #f9f9f9;
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.site-header .nav > li > a:focus, 
+.site-header .nav > li > a:hover {
+    background-color: transparent;
+    color: #f4a939;
+}
+
+.site-header nav .active > a {
+    color: #f4a939;
+}
+
+.site-header nav .active > a:hover {
+    color: #f4a939;
+    border-bottom: 2px solid #f4a939;
+}
+
+.dropdown-menu {
+    text-align: center;
+}
+
+.dropdown-menu > li > a:focus, 
+.dropdown-menu > li > a:hover {
+    color: #f4a939;
+    background-color: transparent;
+}
+
+/*----- Media Queries -----*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .site-header .navbar-collapse {
+        top: 4.286em;
+        background-color: transparent;
+    }
+
+    .site-header nav { 
+        text-align: right;
+    }
+
+    .site-header .navbar-nav > li {
+        float: none;
+        display: inline-block;
+        padding: 0 1em;
+        border: none;
+    }
+
+    .site-header nav .active > a {
+        color: #ccc;
+        border-bottom: 2px solid #ccc;
+    }
+
+    .site-header .dropdown-menu {
+        background-color: #181818;
+        text-align: left;
+        right: auto; /* override bootstrap right: 0; */
+    }
+
+    .site-header .dropdown-menu li {
+        border: none;
+        padding: 0.5em;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

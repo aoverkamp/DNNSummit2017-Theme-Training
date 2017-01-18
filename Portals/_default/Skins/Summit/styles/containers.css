@@ -8,11 +8,22 @@
 .module-container__h2-title {}
 .module-container__no-title {}
 
+/* Card Container */
 .module-container__card {
     background-color: #fff;
-  border: 1px solid #e2e2e2;
-  box-sizing: border-box;
-  box-shadow: 0px 0px 3px #eee;
-  border-radius: 3px;
-  padding-bottom: 30px; 
+	border: 1px solid #e2e2e2;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 3px #eee;
+	border-radius: 3px;
+	padding-bottom: 30px; 
 }
+	.module-container__card .module-container--body img {
+		width: 100%;
+	}
+	.module-container__card .module-container--body h2 {
+		padding: 0 2rem;
+	}	
+	.module-container__card .module-container--body p,
+	.module-container__card .module-container--body .card-content {
+		padding: 0 2rem 2rem;
+	}
