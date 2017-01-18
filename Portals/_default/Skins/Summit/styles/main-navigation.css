@@ -55,6 +55,7 @@
 .site-header nav .active > a:hover {
     color: #f4a939;
     border-bottom: 2px solid #f4a939;
+    background-color: transparent;
 }
 
 .dropdown-menu {
@@ -92,6 +93,7 @@
     .site-header nav .active > a {
         color: #ccc;
         border-bottom: 2px solid #ccc;
+        background-color: transparent;
     }
 
     .site-header .dropdown-menu {
@@ -104,6 +106,7 @@
         border: none;
         padding: 0.5em;
     }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
