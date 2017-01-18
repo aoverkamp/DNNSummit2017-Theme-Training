@@ -2,6 +2,7 @@
 @import './styles/footer-content.css';
 @import './styles/main-navigation.css';
 @import './styles/overrides.css';
+@import './styles/text.css';
 @import './styles/theme-header.css';
 @import './styles/theme-footer.css';
 
@@ -14,6 +15,7 @@ body {
   background-color: #f9f9f9;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  line-height: 1.5;
   color: #585858;
 }
 
@@ -35,7 +37,6 @@ body {
 .featured-story-wrap p { width: 65%; }
 
 
-
 /*-- Blog Detail --*/
 .blog-pane {
     top: -180px;
@@ -47,7 +48,7 @@ body {
 .blog-title {}
 
 .lead-row {
-    margin-bottom: 4em;
+    margin: 2em 0;
     /*width: 80%;
     margin: 2em auto 4em;*/
 }
@@ -111,6 +112,9 @@ body {
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    .lead-row {
+        margin: 4em 0;
+    }
     .site-content-area {
         position: relative;
         top: -23px; /* to pull main section to bottom of header, while letting logo overhang */   
