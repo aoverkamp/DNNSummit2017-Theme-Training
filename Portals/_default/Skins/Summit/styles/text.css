@@ -1,0 +1,53 @@
+//DNN Text Stuff
+.Normal,
+.NormalBold,
+.NormalDisabled,
+.NormalTextBox,
+.NormalRed,
+.SkinObject {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #585858;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-size: 1em;
+    line-height: 1.7;
+    color: #585858;
+}
+
+p.lead { 
+    font-size: 1.286em; 
+    line-height: 1.7;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Open Sans', sans-serif;
+    margin: .5em 0; 
+}
+h1 { 
+    font-size: 4em; 
+}
+h2 { 
+    font-size: 2.667em; 
+}
+h3 { 
+    font-size: 2.667em; 
+}
+h4 { 
+    font-size: 2em; 
+    font-style: italic; 
+}
+h5 { 
+    font-size: 1.5em; 
+}
+h6 { f
+    ont-size: 1.25em; 
+    font-style: italic; 
+}
+.Head {}
+.SubHead {}
+.SubSubHead {}
