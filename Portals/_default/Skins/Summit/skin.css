@@ -19,6 +19,41 @@ body {
   color: #585858;
 }
 
+
+
+
+/*-- Layouts --*/
+
+.site-content-area {
+    background-image: url(./images/mountains-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: bottom;
+    padding-bottom: 15em;
+}
+
+.blog .site-content-area {
+    background-image: url(./images/mountains-trees-bg.png);
+}
+
+.lead-row {
+    margin: 2em 0;
+    /*width: 80%;
+    margin: 2em auto 4em;*/
+}
+
+.hero-row {
+    margin-bottom: 2em;
+}
+
+.hero-row img {
+  width: 100%;
+}
+
+.feature-row {
+    margin-bottom: 4em;
+}
+
 /*-- Feature --*/
 .featured-story-wrap {
     background-image: url(./images/Summit-feature-bg.jpg);
@@ -36,46 +71,15 @@ body {
 }
 .featured-story-wrap p { width: 65%; }
 
-
+/*-- Blog Layout *--/
 /*-- Blog Detail --*/
 .blog-pane {
-    top: -180px;
     background: #f9f9f9;
-    padding: 2em 8em;
 }
 
 .blog-detail {}
 .blog-title {}
 
-.lead-row {
-    margin: 2em 0;
-    /*width: 80%;
-    margin: 2em auto 4em;*/
-}
-
-.hero-row {
-    margin-bottom: 4em;
-}
-
-.hero-row img {
-  width: 100%;
-}
-
-.feature-row {
-    margin-bottom: 4em;
-}
-
-.site-content-area {
-    background-image: url(./images/mountains-bg.png);
-    background-repeat: no-repeat;
-    background-size: 100%; 
-    background-position: bottom;
-    padding-bottom: 15em;
-}
-
-.blog .site-content-area {
-    background-image: url(./images/mountains-trees-bg.png);
-}
 
 /*-- Card Content --*/
 .card-content-wrap {}
@@ -115,10 +119,19 @@ body {
     .lead-row {
         margin: 4em 0;
     }
+
+    .hero-row {
+        margin-bottom: 4em;
+    }
+
     .site-content-area {
         position: relative;
         top: -23px; /* to pull main section to bottom of header, while letting logo overhang */   
         margin-bottom: -23px; /* counters top positioning to ensure bottom of main meets top of footer */ 
+    }
+    .blog-pane {
+        top: -180px;
+        padding: 2em 8em;
     }
 }
 
