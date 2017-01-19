@@ -1,0 +1,77 @@
+a, 
+a.SkinObject, 
+a:link {
+    text-decoration: none;
+    color: #135d7d;
+}
+
+a:hover,
+a.SkinObject:hover,
+a:link:hover
+ { 
+	color: #f4a939; 
+	text-decoration: underline; 
+}
+
+a:visited,
+a.SkinObject:visited,
+a:link:visited {
+	text-decoration: none;
+    color: #135d7d;		
+}
+
+a:visited:hover,
+a.SkinObject:visited:hover,
+a:link:visited:hover {
+	color: #f4a939; 
+	text-decoration: underline; 	
+}
+
+a:focus,
+a:active,
+a.SkinObject:focus,
+a.SkinObject:active,
+a:link:focus,
+a:link:active {  
+	color: #f4a939; 
+}
+
+
+a img { border: none; }
+
+// DNN Clickables
+a.dnnPrimaryAction {}
+    a.dnnPrimaryAction:hover {}
+    a.dnnPrimaryAction:focus {}
+    a.dnnPrimaryAction:active {}
+
+    a.dnnPrimaryAction:visited {]
+        a.dnnPrimaryAction:visited:hover {}
+        a.dnnPrimaryAction:visited:focus {}
+
+a.dnnSecondaryAction {}
+    a.dnnSecondaryAction:hover {}
+    a.dnnSecondaryAction:focus {}
+    a.dnnSecondaryAction:active {}
+
+    a.dnnSecondaryAction:visited {}
+        a.dnnSecondaryAction:hover {}
+        a.dnnSecondaryAction:focus {}
+
+a.dnnTertiaryAction {}
+    a.dnnTertiaryAction:hover {}
+    a.dnnTertiaryAction:focus {}
+    a.dnnTertiaryAction:active {}
+
+    a.dnnTertiaryAction:visited {}
+       a.dnnTertiaryAction:hover {}
+        a.dnnTertiaryAction:focus {}
+
+/*----- Media Queries -----*/
+
+/*-- Print --*/
+@media print {
+    a {
+        text-decoration: underline !important; /* important added to make sure and override any deeper styles */
+    } 
+}
