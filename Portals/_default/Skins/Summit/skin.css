@@ -21,10 +21,7 @@ body {
 }
 
 
-
-
 /*-- Layouts --*/
-
 .site-content-area {
     background-image: url(./images/mountains-bg.png);
     background-repeat: no-repeat;
@@ -89,7 +86,7 @@ body {
 }
 
 .featured-story-content .read-more:hover {
-    color: #fff;
+    color: #135d7d;
     background-color: #f4a939; 
 }
 
