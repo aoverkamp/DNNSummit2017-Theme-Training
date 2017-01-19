@@ -77,6 +77,7 @@
     .site-header .navbar-collapse {
         top: 4.286em;
         background-color: transparent;
+        max-height: 4em;
     }
 
     .site-header nav { 
