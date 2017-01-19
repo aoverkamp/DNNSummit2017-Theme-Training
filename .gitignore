@@ -68,7 +68,6 @@ Robots.txt
 SiteAnalytics.config
 SiteUrls.config
 web.config
-Portals/0/
 Portals/_default/portal.css
 imagecache/0123/c0f22c5d8e15b21f745121a495620b1337fa262b0977cd9e61130851e86b0823.jpg
 imagecache/0a57/f9981e3d51de57c0cfc6d53249ffb8a21621d18c2c29445bf295ff55ee375257.jpg
@@ -79,3 +78,10 @@ imagecache/124b/092b52bee991c56a84436fcffdfd5ecb6b27698bc61c514f823900f487f1914b
 imagecache/14aa/da6c3cbd59bab162c8f98971064d6492a38fdda65a204a4557292e43089aa7aa.jpg
 imagecache/1f24/cbef84eaeeda3aca60da67167bc152fb54c63c4521036c366548c4309643fb24.jpg
 tosic.bin.debug-helpers.zip.manifest
+Portals/0/2sxc/
+Portals/0/adam/
+Portals/0/card-images/
+Portals/0/hero-images/
+Portals/0/OpenContent/
+Portals/0/site-images/
+Portals/0/Summit-logo.png
