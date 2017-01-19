@@ -1,0 +1,115 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages><package name="SummitTest" type="Skin" version="0.1.0">
+  <friendlyName>Summit Test Pkg</friendlyName>
+  <description>first test with DNN pkg</description>
+  <iconFile />
+  <owner>
+    <name>Anthony Overkamp</name>
+    <organization />
+    <url />
+    <email>aoverkamp@engagesoftware.com</email>
+  </owner>
+  <license />
+  <releaseNotes />
+  <components>
+    <component type="Skin">
+      <skinFiles>
+        <skinName>Summit</skinName>
+        <basePath>Portals\_default\Skins\Summit</basePath>
+        <skinFile>
+          <path>BootstrapNav</path>
+          <name>BootstrapNav.txt</name>
+        </skinFile>
+        <skinFile>
+          <path>BootstrapNav</path>
+          <name>menudef.xml</name>
+        </skinFile>
+        <skinFile>
+          <path>controls</path>
+          <name>CommonResources.ascx</name>
+        </skinFile>
+        <skinFile>
+          <path>controls</path>
+          <name>SiteFooterInfo.ascx</name>
+        </skinFile>
+        <skinFile>
+          <path>controls</path>
+          <name>SiteHeader.ascx</name>
+        </skinFile>
+        <skinFile>
+          <path>images</path>
+          <name>mountains-bg.png</name>
+        </skinFile>
+        <skinFile>
+          <path>images</path>
+          <name>mountains-trees-bg.png</name>
+        </skinFile>
+        <skinFile>
+          <path>images</path>
+          <name>Summit-feature-bg.jpg</name>
+        </skinFile>
+        <skinFile>
+          <path>images</path>
+          <name>Summit-header-bg.jpg</name>
+        </skinFile>
+        <skinFile>
+          <path>styles</path>
+          <name>clickables.css</name>
+        </skinFile>
+        <skinFile>
+          <path>styles</path>
+          <name>containers.css</name>
+        </skinFile>
+        <skinFile>
+          <path>styles</path>
+          <name>footer-content.css</name>
+        </skinFile>
+        <skinFile>
+          <path>styles</path>
+          <name>main-navigation.css</name>
+        </skinFile>
+        <skinFile>
+          <path>styles</path>
+          <name>overrides.css</name>
+        </skinFile>
+        <skinFile>
+          <path>styles</path>
+          <name>text.css</name>
+        </skinFile>
+        <skinFile>
+          <path>styles</path>
+          <name>theme-footer.css</name>
+        </skinFile>
+        <skinFile>
+          <path>styles</path>
+          <name>theme-header.css</name>
+        </skinFile>
+        <skinFile>
+          <name>Blog.ascx</name>
+        </skinFile>
+        <skinFile>
+          <name>blog.jpg</name>
+        </skinFile>
+        <skinFile>
+          <name>Home.ascx</name>
+        </skinFile>
+        <skinFile>
+          <name>home.jpg</name>
+        </skinFile>
+        <skinFile>
+          <name>skin.css</name>
+        </skinFile>
+        <skinFile>
+          <name>Skin.Doctype.xml</name>
+        </skinFile>
+        <skinFile>
+          <name>thumbnail_blog.jpg</name>
+        </skinFile>
+        <skinFile>
+          <name>thumbnail_home.jpg</name>
+        </skinFile>
+      </skinFiles>
+    </component>
+  </components>
+</package></packages>
+</dotnetnuke>
