@@ -11,15 +11,15 @@
   <xsl:template match="udt:Data" mode="list">
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
       <div class="panel panel-default">
-        <div class="panel-heading" role="tab" id="{udt:Question_x0020_ID}">
+        <div class="panel-heading" role="tab" id="heading_{udt:Question_x0020_ID}">
           <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#{udt:Question_x0020_ID}" aria-expanded="true" aria-controls="collapseOne">
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#{udt:Question_x0020_ID}" aria-expanded="true" aria-controls="{udt:Question_x0020_ID}">
               <xsl:value-of select="udt:Question" disable-output-escaping="yes" />
               <xsl:call-template name="EditLink" />
             </a>
           </h4>
         </div>
-        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="{udt:Question_x0020_ID}">
+        <div id="{udt:Question_x0020_ID}" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading_{udt:Question_x0020_ID}">
           <div class="panel-body">
             <xsl:value-of select="udt:Answer" disable-output-escaping="yes" />
           </div>
